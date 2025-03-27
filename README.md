@@ -47,29 +47,29 @@ Run the script from your terminal.
 Assumes `My Clippings.txt` is in the same directory as the script. Creates an output folder named `Kindle_Markdown_Notes` in the current directory.
 
 ```bash
-python kindle_to_markdown.py
+python3 kindle_to_markdown.py
 ```
 
 **Specify Input File:**
 
 ```bash
-python kindle_to_markdown.py "/path/to/your/My Clippings.txt"
+python3 kindle_to_markdown.py "/path/to/your/My Clippings.txt"
 ```
 
 **Specify Output Directory:**
 
 ```bash
-python kindle_to_markdown.py -o "/path/to/your/desired/output_folder"
+python3 kindle_to_markdown.py -o "/path/to/your/desired/output_folder"
 ```
 *Or using the long flag:*
 ```bash
-python kindle_to_markdown.py --output-dir "My Notes/Kindle Imports"
+python3 kindle_to_markdown.py --output-dir "My Notes/Kindle Imports"
 ```
 
 **Specify Both Input and Output:**
 
 ```bash
-python kindle_to_markdown.py "/path/to/clippings_backup.txt" -o "Obsidian Vault/Imports/Kindle"
+python3 kindle_to_markdown.py "/path/to/clippings_backup.txt" -o "Obsidian Vault/Imports/Kindle"
 ```
 
 ### Arguments
