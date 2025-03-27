@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <!-- Optional: Choose a license and update badge -->
 
-A Python script to parse your Amazon Kindle's `My Clippings.txt` file and convert your highlights and notes into individual Markdown files, organized by book. Designed for easy integration with note-taking apps like Obsidian, Logseq, etc.
+A Python script to parse your Amazon Kindle's `My Clippings.txt` file and convert your highlights and notes into individual Markdown files, organized by book. Designed for easy integration with note-taking apps like [Obsidian](https://obsidian.md/), [Logseq](https://logseq.com/), etc.
 
 ## Features
 
@@ -97,7 +97,7 @@ This is a note.
 
 ## Output Format (`[Sanitized Book Title].md`)
 
-Example output file named `The Rosie Project- A Novel (Don Tillman Book 1).md`:
+Example output file named `The Rosie Project - A Novel (Don Tillman Book 1).md`:
 
 ```markdown
 _by Simsion, Graeme_
